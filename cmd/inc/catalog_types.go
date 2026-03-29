@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/alexeldeib/incli/client"
+	"github.com/alexeldeib/inc-cli/client"
 	kitlog "github.com/go-kit/log"
 	"github.com/spf13/cobra"
 )

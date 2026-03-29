@@ -1,4 +1,4 @@
-module github.com/alexeldeib/incli
+module github.com/alexeldeib/inc-cli
 
 go 1.24.0
 

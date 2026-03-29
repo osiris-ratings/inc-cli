@@ -1,7 +1,10 @@
 # incident.io cli
 
 ```bash
-go build -o inc .
+go install github.com/alexeldeib/inc-cli/cmd/inc@latest
+```
+
+```bash
 export INC_API_KEY=inc_foobarbaz
 
 # get all incidents
@@ -21,14 +24,14 @@ inc incident edit --reference 123  --field "Oncall Rotation="
 inc incident edit --id 01HE6...   --field "foo=bar=baz"
 
 # list all catalog types
-inc catalog types get 
+inc catalog types get
 # list catalog types where name == Roles
 inc catalog types get --name Roles
 # show catalog type with id == 01He6...
 inc catalog types get --id 01He6...
 
 # list all catalog entries across all types
-inc catalog entries get 
+inc catalog entries get
 # find a catalog entry by name and type name, enumerating types for first match and returning 1 entry match for that type.
 inc catalog entries get --name NAME --type-name TYPE_NAME
 # get a catalog entry by id

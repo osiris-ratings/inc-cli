@@ -13,7 +13,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/alexeldeib/incli/client"
+	"github.com/alexeldeib/inc-cli/client"
 )
 
 func main() {
